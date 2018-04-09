@@ -1,0 +1,70 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : 
+ Author : 
+ URL : http://
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Logo */
+#logo a {
+    top: 1000px;
+    background-image:url('https://www.cimaglobal.com/static/images/logo/CIMAGlobal_Logo.png');
+    min-height:0;
+    height:80px;
+}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://www.cimaglobal.com/static/images/logo/CIMAGlobal_Logo.png", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:#eeeeef}
+#logo{background-image:none;background-color:#FFFFFF}
+#container{background:#FFFFFF}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
+.wufoo .focused{background:#F0B323}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+.wufoo .focused{border-radius: 10px}
+.wufoo .field{
+    border: 0px;
+    border-bottom: solid 0.5px #CCCCCC;
+}
+
+/* Typography and Spacing*/
+.wufoo{
+    font-family: 'Roboto', sans-serif;
+}
+.wufoo .info h2{font-size:200%;font-family:inherit;color:#72246C; padding-bottom: 10px;}
+.wufoo .info div{font-size:100%;font-family:inherit;color:#444444; padding-bottom: 10px;}
+.wufoo .section h3{font-size:120%;font-family:inherit;background:#FFFFFF;color:#72246C; padding-bottom: 10px;}
+.wufoo .section div{font-size:100%; font-family:inherit; color:#444444; padding-bottom: 10px;}
+.wufoo label.desc, .wufoo legend.desc{font-size:100%;font-family:inherit;color:#444444}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
+.wufoo .field
+{
+    padding: 2px;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
+.wufoo label.choice{color:#444444}
+.wufoo .instruct{font-size:100%;font-family:inherit;color:#444444
+}
+
+.wufoo textrea.field.textarea.medium
+{
+    border:0px;
+}
+
+.wufoo label.desc, legend.desc
+{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
